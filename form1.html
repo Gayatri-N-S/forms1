@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <title>Form 1 </title>
+
+    <style>
+        #one:hover{
+            background-color: brown;
+           
+           }
+        legend{
+            color:black;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+           
+        }
+        label{
+            font-family: cursive;
+            color: blueviolet;
+            
+        }
+        body{
+            background-color:yellow;
+        }
+
+
+    </style>
+</head>
+     <body>
+<form action="">
+        
+    <fieldset>
+
+        <legend>Personal Details</legend>
+    <label for="fname">First Name</label>
+    <input type="text"  id="fname" name="fname">
+    <br><br>
+
+    <label for="mname">Middle Name</label>
+    <input type="text"  id="mname" name="mname">
+    <br><br>
+    
+    <label for="lname">Last Name </label>
+    <input type="textr" id="lname" name="lname">
+    <br><br>
+    
+    <label for="email">Email</label>
+    <input type="email"  id="email" name="email">
+    <br><br>
+
+    <label for="dob">DOB</label>
+    <input type="date"  id="dob" name="dob">
+    
+</fieldset>
+
+
+<fieldset>
+    <legend> Educational Details</legend>
+    <label for="">Department</label>
+    <br><br>
+    
+    <input type="radio" id="cs" name="department">
+    <label for="cs"> CS</label>
+
+    <input type="radio" id="is" name="department">
+    <label for="is"> IS</label>
+
+    <input type="radio" id="mech" name="department">
+    <label for="mech"> MECH</label>
+    <br><br>
+
+    
+    <label for="yop">YOG</label>
+    <input list="yog" id="yop" name="yop">
+    <datalist id="yog">  
+        <option>2018</option>  
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+
+
+
+    </datalist>
+    <br><br>
+
+    <label for="">Skills</label>
+    <br><br>
+    
+    <input type="checkbox" id="html" name="skills">
+    <label for="html"> HTML</label>
+    <br><br>
+
+    <input type="checkbox" id="css" name="skills">
+    <label for="css"> CSS</label>
+    <br><br>
+
+    <input type="checkbox" id="javascript" name="skills">
+    <label for="javascript"> JAVASCRIPT</label>
+    <br><br>
+
+    
+    <input type="Submit" id="one">
+
+    
+
+</fieldset>
+
+</form>
+</body>
+</html>
+
